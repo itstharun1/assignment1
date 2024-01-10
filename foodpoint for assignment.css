@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.nav-bg {}
+
+.bt {
+    background-color: pink;
+    font-weight: bold;
+}
+
+.logos {
+    height: 5vh;
+    padding-left: 35px;
+}
+
+.countries {
+
+    overflow: auto;
+
+    display: flex;
+    /* Use flexbox to arrange buttons horizontally */
+    justify-content: flex-start;
+    /* Align buttons to the start of the container */
+    gap: 10px;
+    /* Adjust space between buttons */
+    margin: 20px;
+    /* Adjust margin as needed */
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    /* Adjust the width of the scrollbar */
+}
+
+/* Style for buttons */
+button {
+    padding: 8px 16px;
+    /* Adjust padding as needed */
+    font-size: 14px;
+    /* Adjust font size as needed */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+
+
+
+.nav-logo {
+    height: 7vh;
+}
+
+.card-img-top {
+    height: 40vh;
+}
+
+.hp {
+    font-weight: bold;
+}
+
+.searchbar {
+    margin: 15px;
+    border-radius: 5px;
+    border-width: 0px;
+
+}
+
+/* Hero Section Styles */
+.hero {
+    background: url('https://www.firstforwomen.com/wp-content/uploads/sites/2/2022/06/Takeout-food.jpg') center/cover no-repeat;
+    color: #fff;
+    padding: 100px 0;
+
+}
+
+.nav-item {
+    font-weight: bold;
+}
+
+/* Product Card Styles */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+}
+
+.about {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+    .card {
+        height: 35vh;
+    }
+
+}
+
+.card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Contact Section Styles */
+.contact-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-item {
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.tt {
+    font-weight: bold;
+}
+
+.contact-item i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #ff7f50;
+}
